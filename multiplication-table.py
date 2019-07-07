@@ -12,4 +12,7 @@ def multitable(max_num, num):
 
 multitable(10, 1)
 
-#generates the values correctly (function within function), need to sort into a table somehow
+# generates the values correctly (function within function), need to sort into a table somehow
+# Ways I could maybe solve: 
+#   Turn them into lists, and then print those lists as ints?
+#   Print the table first?
