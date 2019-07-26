@@ -1,3 +1,4 @@
+import time
 message = 'This is a completely relevant exercise'
 display_width = 16
 
@@ -24,7 +25,6 @@ beg = 0
 end = max_display
 display = list(message[0:max_display])
 storage = list(message[(max_display + 1):len(message)])
-
 while True:
   result = ''.join(display)
   print(result)
@@ -33,5 +33,7 @@ while True:
   del display[0]
   display.append(storage[0])
   del storage[0]
+  time.sleep(0.5)
+
 
     
